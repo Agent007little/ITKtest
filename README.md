@@ -12,10 +12,7 @@
 # Сборка и запуск
 docker-compose up --build
 
-# Запуск с сбросом базы данных
-DB_RESET=true docker-compose up --build
-
 # Остановка
 docker-compose down
-
+```
 Приложение доступно по адресу: http://localhost:8080
